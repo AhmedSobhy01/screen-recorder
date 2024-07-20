@@ -1,0 +1,2 @@
+dxcam==0.0.5
+opencv-python==4.10.0.84
