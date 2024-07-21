@@ -24,6 +24,7 @@ class GUI:
         self.duration_label = Label(self.window, textvariable=self.duration_label_var)
         self.duration_label.pack()
 
+    def mainloop(self):
         self.window.mainloop()
 
     def update_duration(self, duration):

@@ -18,6 +18,7 @@ class App:
         self.vw = VideoWriter(self.fps, self.sc.get_resolution())
 
         self.gui = GUI(self.toggle_recording)
+        self.gui.mainloop()
 
     def record(self):
         while self.is_recording:
